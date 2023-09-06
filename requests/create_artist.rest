@@ -1,0 +1,27 @@
+POST http://localhost:3001/api/artists HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Jose",
+    "lastName": "Mateo",
+    "stageName": "Michael Piano",
+    "gender": "Male",
+    "age": 21,
+    "birthDate": "2002-02-05",
+    "genre": "Worship",
+    "bio": "Passionate worship pianist with a flair for energetic beats.",
+    "profileImage": "michael_mateo.jpg",
+    "socialMedia": [
+        { "platform": "Instagram", "url": "https://www.instagram.com/mmateoabreu70/" },
+        { "platform": "YouTube", "url": "https://youtube.com/MichaelPiano" }
+    ]
+}
+
+###
+
+POST http://localhost:3001/api/artists HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Jose"
+}
