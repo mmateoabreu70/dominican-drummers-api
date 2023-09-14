@@ -5,7 +5,7 @@ Content-Type: application/json
     "firstName": "Jose",
     "lastName": "Mateo",
     "stageName": "Michael Piano",
-    "gender": "Male",
+    "gender": "male",
     "age": 21,
     "birthDate": "2002-02-05",
     "genre": "Worship",

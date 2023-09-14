@@ -1,2 +1,2 @@
-GET http://localhost:3001/api/artists/1
+GET http://localhost:3001/api/artists/64fc8f7049f7eb41bc9e9723
 Content-Type: application/json
